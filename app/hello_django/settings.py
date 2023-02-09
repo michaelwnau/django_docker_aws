@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     # Updated with the IPv4 DNS of the AWS EC2 instance on 2023-02-08
+    # All instances of the EC2 and related services have been terminated 2023-02-08-1939hrsCST
     'ec2-44-210-194-141.compute-1.amazonaws.com', '0.0.0.0', 'localhost', '127.0.0.1'
 ]
 #ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
